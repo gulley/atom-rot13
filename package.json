@@ -1,14 +1,15 @@
 {
   "name": "rot13",
   "main": "./lib/rot13",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A package to apply rot13 cipher to all selected ranges.",
-  "activationEvents": ["rot13:convert"],
+  "activationEvents": [
+    "rot13:convert"
+  ],
   "repository": "https://github.com/fcrespo82/atom-rot13",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
