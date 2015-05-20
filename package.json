@@ -3,13 +3,13 @@
   "main": "./lib/rot13",
   "version": "0.2.2",
   "description": "A package to apply rot13 cipher to all selected ranges.",
-  "activationEvents": [
-    "rot13:convert"
-  ],
+  "activationCommands": {
+    "atom-workspace": "rot13:convert"
+  },
   "repository": "https://github.com/fcrespo82/atom-rot13",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.200.0"
   },
   "dependencies": {}
 }
