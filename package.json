@@ -1,7 +1,7 @@
 {
   "name": "rot13",
   "main": "./lib/rot13",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A package to apply rot13 cipher to all selected ranges.",
   "activationCommands": {
     "atom-workspace": "rot13:convert"
