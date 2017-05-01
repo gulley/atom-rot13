@@ -1,12 +1,12 @@
 {
-  "name": "rot13",
+  "name": "rot13-all",
   "main": "./lib/rot13",
   "version": "0.3.0",
-  "description": "A package to apply rot13 cipher to all selected ranges.",
+  "description": "A package to apply rot13 cipher to the entire document.",
   "activationCommands": {
     "atom-workspace": "rot13:convert"
   },
-  "repository": "https://github.com/fcrespo82/atom-rot13",
+  "repository": "https://github.com/gulley/atom-rot13",
   "license": "MIT",
   "engines": {
     "atom": ">=0.200.0"
