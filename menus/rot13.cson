@@ -6,7 +6,7 @@
     'submenu': [
       'label': 'ROT13'
       'submenu': [
-        { 'label': 'Convert', 'command': 'rot13:convert' },
+        { 'label': 'Convert', 'command': 'rot13:convert' }
         { 'label': 'Ankify', 'command': 'rot13:ankify' }
       ]
     ]
